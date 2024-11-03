@@ -17,7 +17,7 @@
 
 # 💫 About Me:
 
-🏫 I'm pursuing a Master’s degree in Computer Science at PurdueUniversity, Indiana<br>🌱 I’m currently learning Typescript, Distributed Systems, Elixir and other cool stuff!<br>👯 I’m looking to collaborate on full stack web apps.<br>💬 Ask me about React, Python, sports and music<br>⚡ Fun fact: Big fan of Mythology!
+🏫 I'm pursuing a Master’s degree in Computer Science at Purdue University, Indiana<br>🌱 I’m currently learning Typescript, Distributed Systems, Elixir and other cool stuff!<br>👯 I’m looking to collaborate on full stack web apps.<br>💬 Ask me about React, Python, sports and music<br>⚡ Fun fact: Big fan of Mythology!
 
 
 ## 🌐 Socials:
