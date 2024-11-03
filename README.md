@@ -1,4 +1,12 @@
 # 💫 About Me:
+ __      __  ______  ____    ____    __  __  ____
+/\ \  __/\ \/\  _  \/\  _`\ /\  _`\ /\ \/\ \/\  _`\
+\ \ \/\ \ \ \ \ \L\ \ \,\L\_\ \,\L\_\ \ \ \ \ \ \L\ \
+ \ \ \ \ \ \ \ \  __ \/_\__ \\/_\__ \\ \ \ \ \ \ ,__/
+  \ \ \_/ \_\ \ \ \/\ \/\ \L\ \/\ \L\ \ \ \_\ \ \ \/
+   \ `\___x___/\ \_\ \_\ `\____\ `\____\ \_____\ \_\
+    '\/__//__/  \/_/\/_/\/_____/\/_____/\/_____/\/_/
+
 🏫 I'm pursuing a Master’s degree in Computer Science at PurdueUniversity, Indiana<br>🌱 I’m currently learning Typescript, Distributed Systems, Elixir and other cool stuff!<br>👯 I’m looking to collaborate on full stack web apps.<br>💬 Ask me about React, Python, sports and music<br>⚡ Fun fact: Big fan of Mythology!
 
 
