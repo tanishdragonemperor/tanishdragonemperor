@@ -1,4 +1,9 @@
-# 💫 About Me:
+<h1>
+  Hi, I'm Tanish 👨‍💻
+  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="36px"/>
+</h1>
+
+```
  __      __  ______  ____    ____    __  __  ____
 /\ \  __/\ \/\  _  \/\  _`\ /\  _`\ /\ \/\ \/\  _`\
 \ \ \/\ \ \ \ \ \L\ \ \,\L\_\ \,\L\_\ \ \ \ \ \ \L\ \
@@ -6,6 +11,11 @@
   \ \ \_/ \_\ \ \ \/\ \/\ \L\ \/\ \L\ \ \ \_\ \ \ \/
    \ `\___x___/\ \_\ \_\ `\____\ `\____\ \_____\ \_\
     '\/__//__/  \/_/\/_/\/_____/\/_____/\/_____/\/_/
+
+```
+
+
+# 💫 About Me:
 
 🏫 I'm pursuing a Master’s degree in Computer Science at PurdueUniversity, Indiana<br>🌱 I’m currently learning Typescript, Distributed Systems, Elixir and other cool stuff!<br>👯 I’m looking to collaborate on full stack web apps.<br>💬 Ask me about React, Python, sports and music<br>⚡ Fun fact: Big fan of Mythology!
 
