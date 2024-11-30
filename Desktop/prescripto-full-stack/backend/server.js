@@ -7,6 +7,7 @@ import userRouter from "./routes/userRoute.js";
 import doctorRouter from "./routes/doctorRoute.js";
 import adminRouter from "./routes/adminRoute.js";
 import announcementRouter from './routes/announcementRoutes.js';
+import contactRouter from "./routes/contactRoutes.js";
 
 // Initialize Express App
 const app = express();
@@ -25,6 +26,7 @@ app.use("/api/user", userRouter); // User-related routes
 app.use("/api/admin", adminRouter); // Admin-related routes
 app.use("/api/doctor", doctorRouter); // Doctor-related routes
 app.use("/api/announcements", announcementRouter); // Announcements routes
+app.use("/api/contact", contactRouter);
 
 // Default Route
 app.get("/", (req, res) => {
