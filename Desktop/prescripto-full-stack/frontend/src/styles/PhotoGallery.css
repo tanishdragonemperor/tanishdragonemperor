@@ -1,0 +1,120 @@
+.photo-gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Larger thumbnails */
+    gap: 20px; /* Increase spacing between cards */
+    width: 100%;
+    max-width: 1200px; /* Adjust the maximum width of the grid */
+  }
+  
+  .grid-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff; /* Card background color */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+    border-radius: 10px; /* Rounded corners for the card */
+    padding: 10px;
+    height: 250px; /* Consistent card height */
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .grid-card:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Add more shadow on hover */
+  }
+  
+  .grid-photo {
+    width: 100%;
+    height: 80%; /* Take up 80% of the card height */
+    object-fit: cover; /* Ensure the image fills the space without distortion */
+    border-radius: 8px; /* Match the card's rounded corners */
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  .overlay-content {
+    position: relative;
+    width: 60%; /* Image takes 60% of the screen width */
+    max-height: 80%; /* Image takes up 80% of the screen height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Ensure close button is naturally stacked */
+  }
+  
+  .large-photo {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+  }
+  
+  .close-button-container {
+    margin-top: 20px; /* Space between the image and the close button */
+    display: flex;
+    justify-content: center;
+    width: 100%; /* Ensures the button is centered horizontally */
+  }
+  
+  .close-button {
+    background: rgba(255, 255, 255, 0.75);
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .close-button:hover {
+    background: white;
+    opacity: 1;
+  }
+  
+  .nav-panel {
+    position: absolute;
+    top: 0;
+    height: 100%; /* Covers the entire height of the image */
+    width: 15%; /* Takes up 15% of the width on each side */
+    cursor: pointer;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.1); /* Subtle overlay */
+    transition: background 0.2s ease;
+  }
+  
+  .nav-panel:hover {
+    background: rgba(0, 0, 0, 0.2); /* Slightly darker on hover */
+  }
+  
+  .nav-left {
+    left: 0;
+  }
+  
+  .nav-right {
+    right: 0;
+  }
+  
