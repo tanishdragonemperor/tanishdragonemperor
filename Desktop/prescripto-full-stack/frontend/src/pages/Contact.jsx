@@ -44,14 +44,14 @@ const Contact = () => {
         <div className='flex flex-col justify-center items-start gap-6'>
           <p className='font-semibold text-lg text-gray-600'>CONTACT INFO</p>
           <p className='text-gray-500'>
-            Mailing Address
+            Mailing Address:
             <br />
             2030 Ridge Moor Dr
             <br />
             Plainfield IL 60586-5706
           </p>
           <p className='text-gray-500'>
-            Telephone Number
+            Telephone Number:
             <br />
             (815) 613-6960
           </p>
@@ -59,7 +59,7 @@ const Contact = () => {
             MEMBERSHIP INFORMATION
           </p>
           <p className='text-gray-500'>
-            Learn more about joining Disabled American Veterans Chapter 47
+            Learn more about joining our chapter
           </p>
           <button
             className='border border-black px-8 py-4 text-sm hover:bg-black hover:text-white transition-all duration-500'

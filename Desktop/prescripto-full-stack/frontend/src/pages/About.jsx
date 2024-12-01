@@ -6,16 +6,16 @@ const About = () => {
     <div>
 
       <div className='text-center text-2xl pt-10 text-[#707070]'>
-        <p>ABOUT <span className='text-gray-700 font-semibold'>US</span></p>
+        <p>Mission <span className='text-gray-700 font-semibold'>Statement</span></p>
       </div>
 
       <div className='my-10 flex flex-col md:flex-row gap-12'>
         <img className='w-full md:max-w-[360px]' src={assets.about_image} alt="" />
-        <div className='flex flex-col justify-center gap-6 md:w-2/4 text-sm text-gray-600'>
-          <p>Intro 1</p>
-          <p>Intro 2</p>
-          <b className='text-gray-800'>Our Vision</b>
-          <p>Some vision line</p>
+        <div className='flex flex-col justify-center gap-6 md:w-2/4 text-med text-gray-600'>
+          <p>DAV (Disabled American Veterans) Charitable Service Trust is dedicated to one, single purpose: empowering veterans to lead high-quality lives with respect and dignity.
+To carry out this responsibility, the DAV Charitable Service Trust supports physical and psychological rehabilitation programs; enhances research and mobility for veterans with amputations and spinal cord injuries; 
+benefits aging veterans; aids and shelters homeless veterans; and evaluates and addresses the needs of veterans wounded in recent wars and conflicts. For those of every era, 
+the Trust also supports programs that benefit the caregivers and families of ill and injured veterans.</p>
         </div>
       </div>
 
