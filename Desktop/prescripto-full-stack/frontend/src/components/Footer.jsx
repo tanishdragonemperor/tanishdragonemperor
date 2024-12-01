@@ -16,8 +16,6 @@ const Footer = () => {
           <ul className='flex flex-col gap-2 text-gray-600'>
             <li>Home</li>
             <li>About us</li>
-            <li>Delivery</li>
-            <li>Privacy policy</li>
           </ul>
         </div>
 
@@ -33,7 +31,7 @@ const Footer = () => {
 
       <div>
         <hr />
-        <p className='py-5 text-sm text-center'>Copyright 2024 @ veterans.com - All Right Reserved.</p>
+        <p className='py-5 text-sm text-center'>2024 Copyright © DAV, All Rights Reserved. DAV is a tax-exempt organization, and all contributions are tax-deductible according to IRS regulation.</p>
       </div>
 
     </div>
