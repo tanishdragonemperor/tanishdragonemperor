@@ -14,7 +14,7 @@ import Login from './pages/Login';
 import DoctorAppointments from './pages/Doctor/DoctorAppointments';
 import DoctorDashboard from './pages/Doctor/DoctorDashboard';
 import DoctorProfile from './pages/Doctor/DoctorProfile';
-import Inbox from './pages/Admin/Inbox'; // Adjust the path if needed
+import Inbox from './pages/Admin/Inbox';
 
 
 const App = () => {
