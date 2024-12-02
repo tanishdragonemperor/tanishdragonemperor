@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { assets } from '../assets/assets';
+import { toast } from "react-toastify";
 
 const Contact = () => {
   const [showForm, setShowForm] = useState(false);
@@ -18,8 +19,9 @@ const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post('/api/contact', formData);
-      alert('Message sent successfully!');
+      // await axios.post('/api/contact', formData);
+      toast.success('Message sent successfully!')
+      // alert('Message sent successfully!');
       setFormData({ name: '', email: '', message: '' });
       setShowForm(false); // Close the form after submission
     } catch (error) {
@@ -113,6 +115,7 @@ const Contact = () => {
               <button
                 type='submit'
                 className='border border-black px-8 py-2 text-sm hover:bg-black hover:text-white transition-all duration-500'
+
               >
                 Submit
               </button>

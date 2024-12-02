@@ -9,6 +9,7 @@ const Home = () => {
   return (
     <div>
       <Header />
+      {/* <Notification/> */}
       {/* <Announcements /> */}
       {/* <SpecialityMenu /> */}
       <TopDoctors />
