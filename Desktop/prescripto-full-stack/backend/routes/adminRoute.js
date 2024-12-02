@@ -18,6 +18,6 @@ adminRouter.post("/change-availability", authAdmin, changeAvailablity);
 adminRouter.get("/dashboard", authAdmin, adminDashboard);
 
 // New route for fetching inbox messages
-adminRouter.get("/inbox", authAdmin, getAllMessages); // Add this line
+adminRouter.get("/inbox", authAdmin, getAllMessages);
 
 export default adminRouter;
