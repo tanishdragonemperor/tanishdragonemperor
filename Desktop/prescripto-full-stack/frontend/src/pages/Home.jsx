@@ -4,14 +4,14 @@ import SpecialityMenu from '../components/SpecialityMenu'
 import TopDoctors from '../components/TopDoctors'
 import Banner from '../components/Banner'
 import Announcements from '../components/Announcements'
-
+import TodoList from './TodoList'
 const Home = () => {
   return (
     <div>
       <Header />
-      {/* <Notification/> */}
-      {/* <Announcements /> */}
-      {/* <SpecialityMenu /> */}
+      <br></br>
+      <br></br>
+      <TodoList/>
       <TopDoctors />
       <Banner />
     </div>

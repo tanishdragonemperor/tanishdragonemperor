@@ -35,7 +35,7 @@ const Sidebar = () => {
             <p className='hidden md:block'>Potential Donors</p>
           </NavLink>
           <NavLink
-            to={'/add-doctor'}
+            to={'/add-donor'}
             className={({ isActive }) =>
               `flex items-center gap-3 py-3.5 px-3 md:px-9 md:min-w-72 cursor-pointer ${
                 isActive ? 'bg-[#F2F3FF] border-r-4 border-primary' : ''
@@ -56,25 +56,14 @@ const Sidebar = () => {
             <img className='min-w-5' src={assets.people_icon} alt='' />
             <p className='hidden md:block'>Donors List</p>
           </NavLink>
-          {/* New Inbox Link */}
-          <NavLink
-            to={'/admin-inbox'}
-            className={({ isActive }) =>
-              `flex items-center gap-3 py-3.5 px-3 md:px-9 md:min-w-72 cursor-pointer ${
-                isActive ? 'bg-[#F2F3FF] border-r-4 border-primary' : ''
-              }`
-            }
-          >
-            <img className='min-w-5' src={assets.message_icon} alt='' />
-            <p className='hidden md:block'>Inbox</p>
-          </NavLink>
+          
         </ul>
       )}
 
       {dToken && (
         <ul className='text-[#515151] mt-5'>
           <NavLink
-            to={'/doctor-dashboard'}
+            to={'/donor-dashboard'}
             className={({ isActive }) =>
               `flex items-center gap-3 py-3.5 px-3 md:px-9 md:min-w-72 cursor-pointer ${
                 isActive ? 'bg-[#F2F3FF] border-r-4 border-primary' : ''
@@ -85,7 +74,7 @@ const Sidebar = () => {
             <p className='hidden md:block'>Dashboard</p>
           </NavLink>
           <NavLink
-            to={'/doctor-appointments'}
+            to={'/donor-appointments'}
             className={({ isActive }) =>
               `flex items-center gap-3 py-3.5 px-3 md:px-9 md:min-w-72 cursor-pointer ${
                 isActive ? 'bg-[#F2F3FF] border-r-4 border-primary' : ''
@@ -96,7 +85,7 @@ const Sidebar = () => {
             <p className='hidden md:block'>Appointments</p>
           </NavLink>
           <NavLink
-            to={'/doctor-profile'}
+            to={'/donor-profile'}
             className={({ isActive }) =>
               `flex items-center gap-3 py-3.5 px-3 md:px-9 md:min-w-72 cursor-pointer ${
                 isActive ? 'bg-[#F2F3FF] border-r-4 border-primary' : ''

@@ -10,7 +10,7 @@ const adminRouter = express.Router();
 
 adminRouter.post("/login", loginAdmin);
 adminRouter.post("/", loginAdmin);
-adminRouter.post("/add-doctor", authAdmin, upload.single("image"), addDoctor);
+adminRouter.post("/add-donor", authAdmin, upload.single("image"), addDoctor);
 adminRouter.get("/appointments", authAdmin, appointmentsAdmin);
 adminRouter.post("/cancel-appointment", authAdmin, appointmentCancel);
 adminRouter.get("/all-doctors", authAdmin, allDoctors);

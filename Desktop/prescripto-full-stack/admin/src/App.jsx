@@ -15,6 +15,8 @@ import DoctorAppointments from './pages/Doctor/DoctorAppointments';
 import DoctorDashboard from './pages/Doctor/DoctorDashboard';
 import DoctorProfile from './pages/Doctor/DoctorProfile';
 import Inbox from './pages/Admin/Inbox';
+import Newsletter from './pages/Admin/Newsletter';
+import TodoList from './pages/Admin/TodoList';
 
 
 const App = () => {
@@ -32,12 +34,13 @@ const App = () => {
           <Route path='/' element={<></>} />
           <Route path='/admin-dashboard' element={<Dashboard />} />
           <Route path='/all-appointments' element={<AllAppointments />} />
-          <Route path='/add-doctor' element={<AddDoctor />} />
+          <Route path='/add-donor' element={<AddDoctor />} />
           <Route path='/donor-list' element={<DoctorsList />} />
-          <Route path='/doctor-dashboard' element={<DoctorDashboard />} />
-          <Route path='/doctor-appointments' element={<DoctorAppointments />} />
-          <Route path='/doctor-profile' element={<DoctorProfile />} />
-          <Route path='/admin-inbox' element={<Inbox />} />
+          <Route path='/donor-dashboard' element={<DoctorDashboard />} />
+          <Route path='/donor-appointments' element={<DoctorAppointments />} />
+          <Route path='/donor-profile' element={<DoctorProfile />} />
+          <Route path="/announcement" element={<TodoList />} />
+        <Route path="/newsletter" element={<Newsletter />} />
         </Routes>
       </div>
     </div>

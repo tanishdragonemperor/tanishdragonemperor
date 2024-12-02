@@ -19,14 +19,14 @@ const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      // await axios.post('/api/contact', formData);
-      toast.success('Message sent successfully!')
-      // alert('Message sent successfully!');
+      const x= await axios.post('http://localhost:4000/api/contact/send-email', formData);
+      console.log(x)
+      toast.success('Message sent successfully!');
       setFormData({ name: '', email: '', message: '' });
-      setShowForm(false); // Close the form after submission
+      setShowForm(false); 
     } catch (error) {
       console.error('Error sending message:', error);
-      alert('Failed to send message.');
+      toast.error('Failed to send message.');
     }
   };
 

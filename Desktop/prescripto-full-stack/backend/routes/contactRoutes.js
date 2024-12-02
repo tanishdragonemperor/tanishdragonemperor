@@ -1,7 +1,9 @@
 import express from "express";
-import Contact from "../models/ContactModel.js"; // Create this model in the next step
+import Contact from "../models/contactModel.js";
+
 
 const router = express.Router();
+console.log("inside backend contactRoutes")
 
 // POST: Create a new contact message
 router.post("/", async (req, res) => {
@@ -10,6 +12,7 @@ router.post("/", async (req, res) => {
     const newContact = new Contact({ name, email, message });
     await newContact.save();
     res.status(201).json({ message: "Message saved successfully!" });
+    console.log("inside cibtact 1")
   } catch (error) {
     console.error(error);
     res.status(500).json({ error: "Failed to save message" });
