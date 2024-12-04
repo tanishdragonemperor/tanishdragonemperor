@@ -19,7 +19,7 @@ the Trust also supports programs that benefit the caregivers and families of ill
         </div>
       </div>
 
-      <div className='text-xl my-4'>
+      {/*<div className='text-xl my-4'>
         <p>WHY  <span className='text-gray-700 font-semibold'>CHOOSE US</span></p>
       </div>
 
@@ -36,7 +36,7 @@ the Trust also supports programs that benefit the caregivers and families of ill
           <b>PERSONALIZATION:</b>
           <p >Tailored recommendations and reminders to help you stay on top of your health.</p>
         </div>
-      </div>
+      </div>*/}
 
     </div>
   )
